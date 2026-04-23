@@ -1,0 +1,12 @@
+name: mesh-simplify
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pyopengl
+  - glfw
+  - pip
+  - pip:
+      - imgui[glfw]
+      - openai
